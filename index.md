@@ -15,7 +15,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 ![Cayden_Y](https://github.com/nesciosium/CY_BSE_Portfolio/assets/172316433/29dbcdf2-6d11-4617-9ea2-af12531427a0)
 
-  
+
 # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**

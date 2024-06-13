@@ -1,11 +1,13 @@
 # BlueStamp Smart Cashier
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+The project I chose uses a Raspberry Pi 4 Model B board as they main component. This is essentially the computer that stores the code for the project. My code is a machine learning model that is trained to identify common grocery objects (e.g. snacks and fruits) and puts a price on them. A small camera on the device inputs an image of some items and the AI will then identify what object(s) it is and output the price and the number of items identified.
 
+<!---
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
+```HTML
 <!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
+<!--- Anything between these symbols will not render on the published site
 ```
+-->
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|

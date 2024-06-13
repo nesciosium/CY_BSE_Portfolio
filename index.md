@@ -59,12 +59,18 @@ For your first milestone, explain what you've worked on since your previous mile
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4vww2JQ0xkE" title="Starter Project Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<Parts:>
-<1 Buzzer>
+Parts:
+
+1 Buzzer
+
 1 Electric Capacitor
+
 1 Micro USB
+
 1 Power Cable
+
 1 Self-switch
+
 1 Self-switch cap
 1 Digitron display
 1 IC Chip

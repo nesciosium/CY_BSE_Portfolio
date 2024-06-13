@@ -13,9 +13,6 @@ You should comment out all portions of your portfolio that you have not complete
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Cayden_Y](https://github.com/nesciosium/CY_BSE_Portfolio/assets/172316433/29dbcdf2-6d11-4617-9ea2-af12531427a0)
-
-
 # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**

@@ -68,7 +68,9 @@ For your first milestone, explain what you've worked on since your previous mile
 <img src="schematic" 
      width="400" 
      height="500" />
+
 The retro arcade processor, which is powered via three AAA batteries, uses a microprocessor that takes the inputs from the six different buttons/switches, processes them, and then instructs the LED dot matrices and scoreboard to light up certain dots depending on what happens in the game and what buttons are pressed. Depending on the game, the IC chip will also tell the buzzer to create certain sound effects. Additionally, each button, dot matrix, etc. must be soldered in order to create an uninterrupted electrical current that can successfully take in or receive information.
+
 <img src="schematic 2.png" 
      width="400" 
      height="500" />

@@ -48,7 +48,7 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_pOxtSg9z3A?si=IJSKAmeDeWUueTH-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **How it Works:**
-In Edge Impulse, I feed various images of common grocery list items such as fruits and snacks into a convolutional neural network (CNN), which is a type of machine learning program made for processing images. The neural network will then train and test on the data I have provided in order to accurately identify where and what grocery items I will provide so that it can identify and price the objects in a much more efficient way compared to conventional methods of checking out groceries.
+On the Edge Impulse platform, I feed various images of common grocery list items such as fruits and snacks into a convolutional neural network (CNN), which is a type of machine learning program made for processing images. The neural network will then train and test on the data I have provided in order to accurately identify where and what grocery items I will provide so that it can identify and price the objects in a much more efficient way compared to conventional methods of checking out groceries.
 
 <img src="stats.png" 
      width="500" 
@@ -62,7 +62,9 @@ Neural Network: A neural network is a form of artificial intelligence that mimic
 
 **Challenges/Complications**
 Data Acquisition:
-When data is extremely varied, a lot of data is needed in order to create an accurate model. Because of this, it took me a long time to create a machine learning model with high accuracy when identifying the objects I provided as my data included images as well as drawings and cartoon versions of the grocery items.
+When data is extremely varied, a lot of data is needed in order to create an accurate model. When I was collecting data, I also collected drawings of the grocery items as well as photos. This change in style made it difficult for the machine learning model to correctly identify those drawings. In order to fix this, I had to remove those drawings and also add more photos in order to make an accurate model. Since adding more data can be extremely meticulous and slow, it was pretty difficult to increase the precision of my machine learning model. 
+Parameters (Ablation):
+I also had to change the parameters for my machine learning model many times (known as ablation). Each time I change a parameter, it takes up to five minutes for those new parameters to be applied to the model as the training process takes a while, making this process exremely slow as well.
 
 **What's Next**
 Next, I will be working on my Raspberry Pi, which is what will hold my machine learning model and extra code that a write. It will also have a display to show the number of items and the total price.

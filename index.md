@@ -56,9 +56,9 @@ On the Edge Impulse platform, I feed various images of common grocery list items
 
 Neural Network: A neural network is a form of artificial intelligence that mimics the human brain in order to process data. This type of artificial intelligence uses various hidden layers and nodes in order to process the given data and output a desired result. 
 
-<img src="nn.png" 
-     width="900" 
-     height="500"/>
+<img src="cnn.png" 
+     width="1000" 
+     height="400"/>
 
 **Challenges/Complications:**
 Data Acquisition:

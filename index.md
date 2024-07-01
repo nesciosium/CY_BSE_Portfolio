@@ -50,11 +50,15 @@ For your second milestone, explain what you've worked on since your previous mil
 **How it Works:**
 On the Edge Impulse platform, I feed various images of common grocery list items such as fruits and snacks into a convolutional neural network (CNN), which is a type of machine learning program made for processing images. The neural network will then train and test on the data I have provided in order to accurately identify where and what grocery items I will provide so that it can identify and price the objects in a much more efficient way compared to conventional methods of checking out groceries.
 
+Figure 4: Precision score for my machine learning model
+
 <img src="stats.png" 
      width="500" 
      height="500"/>
 
 Neural Network: A neural network is a form of artificial intelligence that mimics the human brain in order to process data. This type of artificial intelligence uses various hidden layers and nodes in order to process the given data and output a desired result. 
+
+Figure 3: Example of the architecture of a machine learning model
 
 <img src="cnn.png" 
      width="1000" 
@@ -80,12 +84,16 @@ I will be working on my Raspberry Pi, which is what will hold my machine learnin
 **How it Works:**
 The retro arcade processor, which is powered via three AAA batteries, uses a microprocessor that takes the inputs from the six different buttons/switches, processes them, and then instructs the LED dot matrices and scoreboard to light up certain dots depending on what happens in the game and what buttons are pressed. Depending on the game, the IC chip will also tell the buzzer to create certain sound effects. Additionally, each button, dot matrix, etc. must be soldered in order to create an uninterrupted electrical current that can successfully take in or receive information.
 
+Figure 2: Schematic of the retro arcade
+
 <img src="schematic.png" 
      width="500" 
      height="500"/>
 
 **The Buttons:**
 A button is a special type of switch with two modes: on and off. A button will stay in one mode, such as on/off, until pushed: which is when the button provides a momentary electrical signal. This makes buttons much more useful compared to switches in cases such as typing or switching between multiple different functions (such as for changing the strength of an LED light bulb).
+
+Figure 1: Image of the components of the retro arcade
 
 <img src="buttons.png" 
      width="500" 

@@ -56,6 +56,8 @@ On the Edge Impulse platform, I feed various images of common grocery list items
 
 Figure 4: Precision score for my machine learning model
 
+https://studio.edgeimpulse.com/studio/426783/learning/keras-object-detection/12
+
 Neural Network: A neural network is a form of artificial intelligence that mimics the human brain in order to process data. This type of artificial intelligence uses various hidden layers and nodes in order to process the given data and output a desired result. 
 
 <img src="cnn.png" 
@@ -63,6 +65,8 @@ Neural Network: A neural network is a form of artificial intelligence that mimic
      height="400"/>
 
 Figure 3: Example of the architecture of a machine learning model
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fsaturncloud.io%2Fblog%2Fa-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way%2F&psig=AOvVaw1oDjtKX4yLX910BJt81o-B&ust=1720552296293000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCPjd0vWSmIcDFQAAAAAdAAAAABAE
 
 **Challenges/Complications:**
 Data Acquisition:
@@ -90,6 +94,8 @@ The retro arcade processor, which is powered via three AAA batteries, uses a mic
 
 Figure 2: Schematic of the retro arcade
 
+https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f
+
 **The Buttons:**
 A button is a special type of switch with two modes: on and off. A button will stay in one mode, such as on/off, until pushed: which is when the button provides a momentary electrical signal. This makes buttons much more useful compared to switches in cases such as typing or switching between multiple different functions (such as for changing the strength of an LED light bulb).
 
@@ -98,6 +104,8 @@ A button is a special type of switch with two modes: on and off. A button will s
      height="500"/>
 
 Figure 1: Image of the components of the retro arcade
+
+https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f
 
 **Challenges/Complications:**
 One reason soldering was a complication for me was because there were many small wires that needed to be soldered to the PCB board. As a result, this task was extremely time consuming. Another reason soldering was a problem was because each wire required proper soldering in order to be able to send an electrical current. Because of this, everything that had too little  solder or solder that was applied incorrectly did not work. For example, I did not add enough solder to my dot matrix, therefore, my LED dot matrices were not lighting up when they  should have.

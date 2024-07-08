@@ -66,7 +66,7 @@ Neural Network: A neural network is a form of artificial intelligence that mimic
 
 Figure 3: Example of the architecture of a machine learning model
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fsaturncloud.io%2Fblog%2Fa-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way%2F&psig=AOvVaw1oDjtKX4yLX910BJt81o-B&ust=1720552296293000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCPjd0vWSmIcDFQAAAAAdAAAAABAE
+https://saturncloud.io/blog/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way/
 
 **Challenges/Complications:**
 Data Acquisition:

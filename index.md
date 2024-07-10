@@ -56,8 +56,6 @@ On the Edge Impulse platform, I feed various images of common grocery list items
 
 Figure 4: Precision score for my machine learning model
 
-<a href="https://studio.edgeimpulse.com/studio/426783/learning/keras-object-detection/12"> Link to Edge Impulse </a>
-
 Neural Network: A neural network is a form of artificial intelligence that mimics the human brain in order to process data. This type of artificial intelligence uses various hidden layers and nodes in order to process the given data and output a desired result. 
 
 <img src="cnn.png" 

@@ -17,7 +17,7 @@ You should comment out all portions of your portfolio that you have not complete
      width="400" 
      height="500" />
 
-# Final Milestone
+# Final Milestone: Adding an LCD Display to the Raspberry Pi
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
@@ -31,17 +31,18 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 
-# Second Milestone
+# Second Milestone: Connecting Edge Impulse to the Raspberry Pi
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone
+**How it Works:**
+For my second milestone, I connected a Raspberry Pi to my machine learning model to identify objects in an image and label the total price of the objects. Specifically, I run Python code from the terminal that allows me to run my Edge Impulse machine learning model. This code runs in real time with data from a USB camera that I have connected to my Raspberry Pi. Depending on what and how many items are identified using the machine learning model, the code will then output the number of valid items and the total price. For this milestone, I used apples and oranges as the valid items.
+
+**Challenges/Complications:**
+Python Code:
+With the code that I have, I am able to run my Edge Impulse machine learning model all within Python. This allows me to output any desired outcomes, which in this case would be the number of items identified and the price that I have given the objects. The Python code also allows me to display the live stream from my USB Camera including the bounding boxes that show the locations of the objects.
 
 # First Milestone: My Machine Learning Model
 

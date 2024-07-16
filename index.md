@@ -23,26 +23,57 @@ You should comment out all portions of your portfolio that you have not complete
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+**How it Works:**
+For my third milestone I added an LCD display that shows the output from my code, which would be the number of items and the total price of those items so that I wouldn’t have to look at my monitor to see the outputs. This is done by printing to my LCD display instead of the terminal, allowing me to see the outputs on a more visible screen.
+Figure: A Snippet of the Python Code that Prints the Final Result
 
+<img src="lcd_schematic.png" 
+     width="1000" 
+     height="500" />
 
+Figure: LCD and Raspberry Pi Schematic
+
+**Challenges/Complications:**
+Coding:
+Although my third milestone was pretty simple compared to my first and second milestones, I still faced a few issues when trying to run code that is compatible with the LCD display. For example, I had not initialized (assigned) anything to the term “display”, leading to an error that I had trouble fixing. Another error I had was due to the fact that I had not downloaded the i2c_lcd library needed to run the function after I initialized the term “display”. 
+
+<img src="code1.png" 
+     width="600" 
+     height="500" />
+
+Figure: A Snippet of the Python Code that Prints the Final Result
 
 # Second Milestone: Connecting Edge Impulse to the Raspberry Pi
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wltxmrRWUFI?si=Jxk9RcX9DfNHqTx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **How it Works:**
 For my second milestone, I connected a Raspberry Pi to my machine learning model to identify objects in an image and label the total price of the objects. Specifically, I run Python code from the terminal that allows me to run my Edge Impulse machine learning model. This code runs in real time with data from a USB camera that I have connected to my Raspberry Pi. Depending on what and how many items are identified using the machine learning model, the code will then output the number of valid items and the total price. For this milestone, I used apples and oranges as the valid items.
 
-**Challenges/Complications:**
+<img src="flowchart.png" 
+     width="800" 
+     height="500" />
+
+Figure: Flowchart of Smart Cashier
+
+<img src="orange.png" 
+     width="500" 
+     height="500" />
+
+Figure: Bounding Boxes show that there is an Orange there
+
 Python Code:
 With the code that I have, I am able to run my Edge Impulse machine learning model all within Python. This allows me to output any desired outcomes, which in this case would be the number of items identified and the price that I have given the objects. The Python code also allows me to display the live stream from my USB Camera including the bounding boxes that show the locations of the objects.
+
+<img src="code.png" 
+     width="600" 
+     height="500" />
+
+Figure: A Snippet of the Python Code that Runs the Machine Learning Model
+
+**Challenges/Complications:**
+Downloading:
+In order to successfully run my code on the Raspberry Pi, I had to download various libraries that allow certain functions to work in coding. I faced many errors as I was missing some libraries – such as RPi.GPIO and cv2 – that I needed for my code to work. What was difficult about downloading libraries was that I had to go through different processes depending on what library I wanted to download and it was difficult to find instructions on how to do that. Additionally, the connection between my computer and Raspberry Pi was very weak because of the adapter. This meant that I would sometimes have to reboot the Raspberry Pi so that I could continue working.
 
 # First Milestone: My Machine Learning Model
 

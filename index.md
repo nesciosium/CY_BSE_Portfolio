@@ -31,7 +31,7 @@ Figure: A Snippet of the Python Code that Prints the Final Result
      width="1000" 
      height="500" />
 
-Figure: LCD and Raspberry Pi Schematic
+Figure 1: LCD and Raspberry Pi Schematic
 <a href="https://newbiely.com"> Link to Website of Schematic </a>
 
 **Challenges/Complications:**
@@ -42,7 +42,7 @@ Although my third milestone was pretty simple compared to my first and second mi
      width="600" 
      height="500" />
 
-Figure: A Snippet of the Python Code that Prints the Final Result
+Figure 2: A Snippet of the Python Code that Prints the Final Result
 
 # Second Milestone: Connecting Edge Impulse to the Raspberry Pi
 
@@ -55,13 +55,13 @@ For my second milestone, I connected a Raspberry Pi to my machine learning model
      width="800" 
      height="500" />
 
-Figure: Flowchart of Smart Cashier
+Figure 3: Flowchart of Smart Cashier
 
 <img src="orange.png" 
      width="500" 
      height="500" />
 
-Figure: Bounding Boxes show that there is an Orange there
+Figure 4: Bounding Boxes show that there is an Orange there
 
 Python Code:
 With the code that I have, I am able to run my Edge Impulse machine learning model all within Python. This allows me to output any desired outcomes, which in this case would be the number of items identified and the price that I have given the objects. The Python code also allows me to display the live stream from my USB Camera including the bounding boxes that show the locations of the objects.
@@ -70,7 +70,7 @@ With the code that I have, I am able to run my Edge Impulse machine learning mod
      width="600" 
      height="500" />
 
-Figure: A Snippet of the Python Code that Runs the Machine Learning Model
+Figure 5: A Snippet of the Python Code that Runs the Machine Learning Model
 
 **Challenges/Complications:**
 Downloading:
@@ -87,7 +87,7 @@ On the Edge Impulse platform, I feed various images of common grocery list items
      width="500" 
      height="500"/>
 
-Figure 4: Precision score for my machine learning model
+Figure 6: Precision score for my machine learning model
 
 Neural Network: A neural network is a form of artificial intelligence that mimics the human brain in order to process data. This type of artificial intelligence uses various hidden layers and nodes in order to process the given data and output a desired result. 
 
@@ -95,7 +95,7 @@ Neural Network: A neural network is a form of artificial intelligence that mimic
      width="1000" 
      height="400"/>
 
-Figure 3: Example of the architecture of a machine learning model
+Figure 7: Example of the architecture of a machine learning model
 
 <a href="https://saturncloud.io/blog/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way/"> Link to Image of Machine Learning Model Example </a>
 
@@ -123,7 +123,7 @@ The retro arcade processor, which is powered via three AAA batteries, uses a mic
      width="500" 
      height="500"/>
 
-Figure 2: Schematic of the retro arcade
+Figure 8: Schematic of the retro arcade
 
 <a href="https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f"> Link to Schematic </a>
 
@@ -134,7 +134,7 @@ A button is a special type of switch with two modes: on and off. A button will s
      width="500" 
      height="500"/>
 
-Figure 1: Image of the components of the retro arcade
+Figure 9: Image of the components of the retro arcade
 
 <a href="https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f"> Link to Image of Retro Arcade Console </a>
 
@@ -165,8 +165,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Raspberry Pi 4 Model B | Single-board Computer | $56.91 | <a href="https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TD42S27/ref=asc_df_B07TD42S27/?tag=hyprod-20&linkCode=df0&hvadid=692875362841&hvpos=&hvnetw=g&hvrand=3073603301731430935&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2281435178858&mcid=f46e152b627438ccb7bf2e8b73945a50&hvocijid=3073603301731430935-B07TD42S27-&hvexpln=73&gad_source=1&th=1"> Link </a> |
-| USB Webcam | Provides images | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| LCD Display 16x2 | Displays the output | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| USB Webcam | Provides images | $23.99 | <a href="https://emeet.com/products/webcam-c950"> Link </a> |
+| 16x2 LCD Display | Displays the output | $9.99 | <a href="https://www.sunfounder.com/products/i2c-lcd1602-module"> Link </a> |
 
 <!---# Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.

@@ -32,6 +32,16 @@ Figure: A Snippet of the Python Code that Prints the Final Result
 Figure 1: LCD and Raspberry Pi Schematic
 <a href="https://newbiely.com"> Link to Website of Schematic </a>
 
+FOMO Machine Learning Model:
+The machine learning model I used was FOMO, which stands for Faster Objects, More Objects. This powerful algorithm is able to analyze multiple objects quickly in order to be able to identify them when given test data. This algorithm is the most used on Edge Impulse and has given pretty accurate results when I used it.
+
+<img src="AI_model.png" 
+     width="1200" 
+     height="500" />
+
+Figure 2: Architecture of FOMO
+<a href="[https://newbiely.com](https://www.slideshare.net/slideshow/fomo-realtime-object-detection-on-microcontrollers-a-presentation-from-edge-impulse/251978082)"> Link to Website of Schematic </a>
+
 **Challenges/Complications:**
 Coding:
 Although my third milestone was pretty simple compared to my first and second milestones, I still faced a few issues when trying to run code that is compatible with the LCD display. For example, I had not initialized (assigned) anything to the term “display”, leading to an error that I had trouble fixing. Another error I had was due to the fact that I had not downloaded the i2c_lcd library needed to run the function after I initialized the term “display”. 
@@ -40,7 +50,7 @@ Although my third milestone was pretty simple compared to my first and second mi
      width="600" 
      height="500" />
 
-Figure 2: A Snippet of the Python Code that Prints the Final Result
+Figure 3: A Snippet of the Python Code that Prints the Final Result
 
 # Second Milestone: Connecting Edge Impulse to the Raspberry Pi
 
@@ -53,13 +63,13 @@ For my second milestone, I connected a Raspberry Pi to my machine learning model
      width="800" 
      height="500" />
 
-Figure 3: Flowchart of Smart Cashier
+Figure 4: Flowchart of Smart Cashier
 
 <img src="orange.png" 
      width="500" 
      height="500" />
 
-Figure 4: Bounding Boxes show that there is an Orange there
+Figure 5: Bounding Boxes show that there is an Orange there
 
 Python Code:
 With the code that I have, I am able to run my Edge Impulse machine learning model all within Python. This allows me to output any desired outcomes, which in this case would be the number of items identified and the price that I have given the objects. The Python code also allows me to display the live stream from my USB Camera including the bounding boxes that show the locations of the objects.
@@ -68,7 +78,7 @@ With the code that I have, I am able to run my Edge Impulse machine learning mod
      width="600" 
      height="500" />
 
-Figure 5: A Snippet of the Python Code that Runs the Machine Learning Model
+Figure 6: A Snippet of the Python Code that Runs the Machine Learning Model
 
 **Challenges/Complications:**
 Downloading:
@@ -85,7 +95,7 @@ On the Edge Impulse platform, I feed various images of common grocery list items
      width="500" 
      height="500"/>
 
-Figure 6: Precision score for my machine learning model
+Figure 7: Precision score for my machine learning model
 
 Neural Network: A neural network is a form of artificial intelligence that mimics the human brain in order to process data. This type of artificial intelligence uses various hidden layers and nodes in order to process the given data and output a desired result. 
 
@@ -93,7 +103,7 @@ Neural Network: A neural network is a form of artificial intelligence that mimic
      width="1000" 
      height="400"/>
 
-Figure 7: Example of the architecture of a machine learning model
+Figure 8: Example of the architecture of a machine learning model
 
 <a href="https://saturncloud.io/blog/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way/"> Link to Image of Machine Learning Model Example </a>
 
@@ -121,7 +131,7 @@ The retro arcade processor, which is powered via three AAA batteries, uses a mic
      width="500" 
      height="500"/>
 
-Figure 8: Schematic of the retro arcade
+Figure 9: Schematic of the retro arcade
 
 <a href="https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f"> Link to Schematic </a>
 
@@ -132,7 +142,7 @@ A button is a special type of switch with two modes: on and off. A button will s
      width="500" 
      height="500"/>
 
-Figure 9: Image of the components of the retro arcade
+Figure 10: Image of the components of the retro arcade
 
 <a href="https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f"> Link to Image of Retro Arcade Console </a>
 

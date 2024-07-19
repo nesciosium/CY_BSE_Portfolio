@@ -19,9 +19,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 # Final Milestone: Adding an LCD Display to the Raspberry Pi
 
-Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V-qHky9rd1I?si=ahTMci21RU0NbAds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **How it Works:**
 For my third milestone I added an LCD display that shows the output from my code, which would be the number of items and the total price of those items so that I wouldn’t have to look at my monitor to see the outputs. This is done by printing to my LCD display instead of the terminal, allowing me to see the outputs on a more visible screen.

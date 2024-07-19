@@ -27,7 +27,7 @@ Figure: A Snippet of the Python Code that Prints the Final Result
 
 <img src="lcd_schematic.png" 
      width="1000" 
-     height="500" />
+     height="400" />
 
 Figure 1: LCD and Raspberry Pi Schematic
 <a href="https://newbiely.com"> Link to Website of Schematic </a>
